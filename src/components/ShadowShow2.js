@@ -3,15 +3,15 @@ import React from "react";
 // assets and components
 import ShadowShowImg from "../assets/imgs/shadowshow.png";
 
-const ShadowShow = () => {
+const ShadowShow2 = () => {
   return (
     <div>
       <h1 className="mt-8 ml-2 pl-2 mb-5 text-3xl font-bold">Shadow Show</h1>
 
       <div class="flex justify-items-start mr-12">
         <div
+            style={{width: "31rem"}}
           class="block rounded-lg
-                    max-h-full
                     shadow-lg bg-white "
         >
           <img
@@ -21,7 +21,7 @@ const ShadowShow = () => {
             // width={96}
           />
           <p className="text-3xl font-bold mb-20">
-            [Shadow Show] Marketing dược có cần sáng tạo
+            [Worknowledge] ABC ...
           </p>
         </div>
         <div className="block ml-12">
@@ -46,26 +46,26 @@ const ShadowShow = () => {
           </button>
         </div>
         <div className="block mr-2">
-          <div className="pb-20 ml-8">
+          <div className="pb-20 mb-12 ml-4">
             <p className="text-3xl font-bold">
-              [Shadow Show] Marketing dược có cần sáng tạo
+            [Worknowledge] ABC ...
             </p>
             <div className="flex mt-2 mr-6">
               <p className="text-gray-600">[Mô tả ngắn]</p>
-              <p className="text-gray-600">
+              {/* <p className="text-gray-600">
                 Nguyễn Văn A 5 năm kinh nghiệm trong ngành Marketing
-              </p>
+              </p> */}
             </div>
           </div>
-          <div className="ml-8">
+          <div className="ml-4">
             <p className="text-3xl font-bold">
-              [Shadow Show] Marketing dược có cần sáng tạo
+            [Worknowledge] ABC ...
             </p>
             <div className="flex mt-2 mr-6">
               <p className="text-gray-600">[Mô tả ngắn]</p>
-              <p className="text-gray-600">
+              {/* <p className="text-gray-600">
                 Nguyễn Văn A 5 năm kinh nghiệm trong ngành Marketing
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -74,4 +74,4 @@ const ShadowShow = () => {
   );
 };
 
-export default ShadowShow;
+export default ShadowShow2;
