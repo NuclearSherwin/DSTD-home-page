@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
         <div className=''>
             <nav className="
-                z-50
+                z-10
                 bg-white
                 shadow-md w-full fixed top-0 left-0">
                 <div className="flex justify-center">
