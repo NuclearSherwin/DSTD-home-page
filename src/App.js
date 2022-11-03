@@ -1,6 +1,9 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Login from "./components/Login";
 import HomePage from "./components/HomePage";
 import NavBar from "./components/NavBar";
+
 
 function App() {
   return (
@@ -9,8 +12,14 @@ function App() {
       <div>
         <NavBar />
       </div>
-      <HomePage />
+
+      <Routes>
+          <Route path="/" element={<HomePage />} /> 
+          <Route path="/login" element={<Login />} /> 
+      </Routes>
     </div>
+
+   
   );
 }
 

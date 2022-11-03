@@ -84,7 +84,7 @@ const NavBar = () => {
                                 border-solid
                                 border-2
                                 text-green-700 
-                                font-bold' to="/dangnhap">
+                                font-bold' to="/login">
                                 Đăng nhập
                             </Link>
                         </li>
