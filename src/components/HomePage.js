@@ -35,7 +35,7 @@ const HomePage = () => {
         <ShadowShow2 />
         {/* Footer */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

@@ -5,7 +5,7 @@ import SDTDLogo from '../assets/imgs/image-23.png';
 
 const Footer = () => {
     return (
-        <div className='mt-32'>
+        <div className='mt-72' style={{bottom: "0px", left: "0px", right: "0px"}}>
             <footer class="text-center lg:text-left bg-green-50 text-gray-700">
                 <div class="flex justify-center items-center lg:justify-between p-2 border-b border-gray-300">
                     <div class="mr-12 hidden lg:block">

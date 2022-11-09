@@ -1,11 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import GoogleLogo from "../assets/imgs/login/google-logo.svg";
 import FacebookLogo from "../assets/imgs/login/facebook-logo.svg";
 
 const Login = () => {
   return (
     <div
-      className="mt-16 bg-cover bg-no-repeat"
+      className="mt-16 bg-cover bg-no-repeat flex justify-center"
       style={{ backgroundImage: "url(/img/login/background-login.png)" }}
     >
       <div className="w-screen h-screen flex items-center justify-center">
@@ -14,7 +16,7 @@ const Login = () => {
             {/* Logo */}
             <div>
               <img
-                src="/public/img/login/google-logo.svg"
+                src="/DSTD-home-page/src/assets/imgs/login/logo.svg"
                 style={{ width: "256px", height: "157.96px" }}
                 alt="logo"
               />
@@ -86,18 +88,18 @@ const Login = () => {
                 Quên mật khẩu
               </a>
               <span>
-                <a
+                <Link to={"/signup"}
                   className="inline-block align-baseline font-bold text-sm text-green-600 hover:text-green-800"
                   href="#"
                 >
                   Chưa có tài khoản,
-                </a>
-                <a
+                </Link>
+                <Link to={"/signup"}
                   className="inline-block align-baseline font-bold text-sm text-green-600 hover:text-green-800"
                   href="#"
                 >
                   ĐĂNG KÝ Tại đây
-                </a>
+                </Link>
               </span>
             </div>
             <div className="flex items-center justify-center">
