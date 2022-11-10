@@ -1,200 +1,204 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import Logo from '../assets/imgs/login/logo.png'
 
 const SignUp = () => {
   return (
     <div
       className="mt-20 bg-cover bg-no-repeat flex justify-center"
-      style={{ backgroundImage: "url(/img/login/background-login.png)" }}
+      style={{ backgroundImage: "url(/img/sign_up/background-signup.png)" }}
     >
       <div className="w-screen h-max flex items-center justify-center">
-        <div style={{ width: "550px" }} className="">
-          <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div style={{ width: "1088px" }} className="">
+          <form class="shadow-md rounded px-8 pt-6 pb-8 mb-4">
             {/* Logo */}
             <div>
-              <img
-                src="/DSTD-home-page/src/assets/imgs/login/logo.svg"
+              <img className='mr-auto ml-auto'
+                src={Logo}
                 style={{ width: "256px", height: "157.96px" }}
                 alt="logo"
               />
-              <h2 className="text-center font-bold my-5 text-2xl">ĐĂNG NHẬP</h2>
+              <h2 className="text-center font-bold my-5 text-2xl">ĐĂNG KÝ</h2>
               {/* separator */}
             </div>
             <div class="mb-4 mt-8">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Tên đăng nhập"
+                placeholder="Tên đăng nhập *"
               />
             </div>
-            <div className="mb-4 mt-8">
+            <div className="mb-4 mt-4">
               <input
-                className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="password"
                 type="password"
-                placeholder="Mật khẩu"
+                placeholder="Mật khẩu *"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Ho va Ten"
+                placeholder="Họ & Tên"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Gioi Tinh"
+                placeholder="Giới tính"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Truongw"
+                placeholder="Trường"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4 flex">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg mr-2 w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Khoa"
+                placeholder="Khóa"
               />
-            </div>
-            <div class="mb-4 mt-8">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg ml-2 w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Lop"
+                placeholder="Lớp"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4 flex">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg mr-2 w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
                 placeholder="MSSV"
               />
-            </div>
-            <div class="mb-4 mt-8">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg ml-2 w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="The sinh Vien"
+                placeholder="Thẻ sinh viên * Thêm hình ảnh (chụp rõ các góc của thẻ)  "
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
                 placeholder="Email"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="So Dien Thoai"
+                placeholder="Số điện thoại *"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
+              <i class="absolute p-5 fa-brands fa-facebook"></i>
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Facebook"
+                placeholder=""
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
+              <i class="absolute p-5 fa-brands fa-linkedin"></i>
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Linkedin"
+                placeholder=""
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
+            <i class="absolute p-5 fa-brands fa-instagram"></i>
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Instagram"
+                placeholder=""
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Vai dieu ve ban than"
+                placeholder="Vài điều về bản thân"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Cham ngon yeu thich"
+                placeholder="Châm ngôn yêu thích"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Ky nang (Nang luc ban than)"
+                placeholder="Kỹ năng (Năng lực bản thân)"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Kinh Nghiem lam viec, thanh tich(neu co)"
+                placeholder="Kinh nghiệm làm việc, thành tích(nếu có)"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Uu diem"
+                placeholder="Ưu điểm"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Khuyet diem"
+                placeholder="Khuyết điểm"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Dinh huong nghe nghiep quan tam"
+                placeholder="Đinh hướng nghê nghiệp quan tâm"
               />
             </div>
-            <div class="mb-4 mt-8">
+            <div class="mb-4 mt-4">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded-lg w-full py-4 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Mong muon nghe nghiep trong tuong lai"
+                placeholder="Mong muốn nghề nghiệp trong tương lai"
               />
+            </div>
+            <div className='flex items-center'>
+              <input className='ml-2 mr-4' type="checkbox" checked="checked" />
+              <p>Tôi đồng ý với <i className='italic text-green-500 font-bold text-md'>Quy định và Chính sách Bảo mật Người dùng</i> </p>
             </div>
             
             {/* Options */}
