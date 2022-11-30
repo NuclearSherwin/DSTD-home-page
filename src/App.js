@@ -7,6 +7,8 @@ import SignUp from "./components/SignUp";
 import UV from "./components/UV";
 import Footer from "./components/Footer";
 import UVDating from "./components/UVDating";
+import UV_CTDuoc from "./components/UV_CTDuoc";
+import UVNghienCuu from "./components/UVNghienCuu";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           {/* UV */}
           <Route path="/uv" element={<UV />} />
           <Route path="/uv-dating" element={<UVDating />} />
+          <Route path="/uv-ct-duoc" element={<UV_CTDuoc />} />
+          <Route path="/uv-nghien-cuu-giang-day" element={<UVNghienCuu />} />
         </Routes>
       </div>
       {/* Footer */}

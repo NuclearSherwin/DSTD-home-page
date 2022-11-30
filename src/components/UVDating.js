@@ -71,7 +71,7 @@ const UVDating = () => {
           />
         </div>
         <div className="block p-1 border-2 ml-10 mb-10">
-          <h2 className="text-xl font-bold text-center">Công ty Dược & thiết bị Y tế</h2>
+          <h2 className="text-xl font-bold text-center">Sản xuất & Kiểm nghiệm</h2>
           <img
             className="mt-2"
             src={cong_ty_duoc_va_y_te_pic}
@@ -80,7 +80,7 @@ const UVDating = () => {
           />
         </div>
         <div className="block p-1 border-2 mr-20">
-          <h2 className="text-xl font-bold text-center">Công ty Dược & thiết bị Y tế</h2>
+          <h2 className="text-xl font-bold text-center">Dược bệnh viện & Nhà thuốc</h2>
           <img
             className="mt-2"
             src={cong_ty_duoc_va_y_te_pic}
@@ -89,7 +89,7 @@ const UVDating = () => {
           />
         </div>
         <div className="block p-1 border-2">
-          <h2 className="text-xl font-bold text-center">Công ty Dược & thiết bị Y tế</h2>
+          <h2 className="text-xl font-bold text-center">Nghiên cứu & Giảng dạy</h2>
           <img
             className="mt-2"
             src={cong_ty_duoc_va_y_te_pic}

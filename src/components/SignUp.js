@@ -203,14 +203,14 @@ const SignUp = () => {
             
             {/* Options */}
             <div className="flex justify-between mt-6 mb-6 px-4">
-              <a
+              {/* <a
                 className="inline-block align-baseline font-bold text-sm text-green-600 hover:text-green-800"
                 href="#"
               >
                 Quên mật khẩu
-              </a>
+              </a> */}
               <span>
-                <Link to={"/signup"}
+                {/* <Link to={"/signup"}
                   className="inline-block align-baseline font-bold text-sm text-green-600 hover:text-green-800"
                   href="#"
                 >
@@ -221,7 +221,7 @@ const SignUp = () => {
                   href="#"
                 >
                   ĐĂNG KÝ Tại đây
-                </Link>
+                </Link> */}
               </span>
             </div>
             <div className="flex items-center justify-center">

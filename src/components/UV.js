@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 // assets and components
 import tea_pic from "../assets/imgs/Logo-BBD.png";
-import nghien_cuu_va_phat_trien_pic from '../assets/imgs/nghien-cuu-va-phat-trien.png';
-import standard_pic from '../assets/imgs/standard.png'
-import q_and_a_pic from '../assets/imgs/q-and-a.png'
-import viet_kiem_nghiem_pic from '../assets/imgs/viec-kiem-nghiem.png'
+import nghien_cuu_va_phat_trien_pic from "../assets/imgs/nghien-cuu-va-phat-trien.png";
+import standard_pic from "../assets/imgs/standard.png";
+import q_and_a_pic from "../assets/imgs/q-and-a.png";
+import viet_kiem_nghiem_pic from "../assets/imgs/viec-kiem-nghiem.png";
 
 const UV = () => {
   return (
@@ -65,19 +65,49 @@ const UV = () => {
         </div>
         {/* LOGO of TOPICS */}
         <div className="mt-5 flex flex-wrap items-center justify-center">
-            <div className="mr-6">
-                <img src={nghien_cuu_va_phat_trien_pic} style={{height: "250px", width: "250px"}}/>
-            </div>
-            <div className="mx-6">
-                <img src={standard_pic} style={{height: "250px", width: "250px"}}/>
-            </div>
-            <div className="mx-6">
-                <img src={q_and_a_pic} style={{height: "250px", width: "250px"}}/>
-            </div>
-            <div className="ml-6">
-                <img src={viet_kiem_nghiem_pic} style={{height: "250px", width: "250px"}}/>
-            </div>
-        </div>  
+          <div className="mr-6 relative">
+            <input
+              type="checkbox"
+              className="absolute z-10 w-5 h-5 mt-4 ml-4"
+            />
+            <img
+              src={nghien_cuu_va_phat_trien_pic}
+              alt=""
+              className="relative"
+              style={{ height: "250px", width: "250px" }}
+            />
+          </div>
+          <div className="mx-6 relative">
+            <input
+              type="checkbox"
+              className="absolute z-10 w-5 h-5 mt-4 ml-4"
+            />
+            <img
+              src={standard_pic}
+              style={{ height: "250px", width: "250px" }}
+            />
+          </div>
+          <div className="mx-6 relative">
+            <input
+              type="checkbox"
+              className="absolute z-10 w-5 h-5 mt-4 ml-4"
+            />
+            <img
+              src={q_and_a_pic}
+              style={{ height: "250px", width: "250px" }}
+            />
+          </div>
+          <div className="ml-6 relative">
+            <input
+              type="checkbox"
+              className="absolute z-10 w-5 h-5 mt-4 ml-4"
+            />
+            <img
+              src={viet_kiem_nghiem_pic}
+              style={{ height: "250px", width: "250px" }}
+            />
+          </div>
+        </div>
       </div>
     </>
   );

@@ -51,12 +51,12 @@ const HeaderUV = () => {
             </span>
             <span className="ml-3">Appointment made</span>
           </Link>
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <h1 className="text-2xl">
               Bạn đã lựa chọn lĩnh vực{" "}
               <span className="font-bold">Sản xuất và Kiểm nghiệm</span>{" "}
             </h1>
-          </div>
+          </div> */}
         </div>
     </div>
   )
