@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import UVDating from "./components/UVDating";
 import UV_CTDuoc from "./components/UV_CTDuoc";
 import UVNghienCuu from "./components/UVNghienCuu";
+import ModalXatNhan from "./components/ModalXatNhan";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<ModalXatNhan />} />
           <Route path="/signup" element={<SignUp />} />
           {/* UV */}
           <Route path="/uv" element={<UV />} />

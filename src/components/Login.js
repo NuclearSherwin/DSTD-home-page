@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import GoogleLogo from "../assets/imgs/login/google-logo.svg";
 import FacebookLogo from "../assets/imgs/login/facebook-logo.svg";
 import Logo from "../assets/imgs/login/logo.png";
+import Bapcai from "../assets/imgs/bapcai.png";
 
 const Login = () => {
   return (
